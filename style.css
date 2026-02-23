@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f1eb;
+    color: #333;
+}
+
+header {
+    background-color: #f5f1eb;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.logo-text .plus {
+    color: #d4903e;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #d4903e;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f5f1eb;
+}
+
+.hero h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 16px;
+    color: #d4903e;
+    margin-bottom: 30px;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.products-section {
+    background-color: #d4903e;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.products-section h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.product {
+    margin-bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.product h3 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.product p {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.contact-section {
+    background-color: #f5f1eb;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.contact-info {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+.contact-info strong {
+    font-weight: bold;
+}
+
+.hours {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+.hours p {
+    margin: 8px 0;
+}
+
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hero h1 {
+        font-size: 22px;
+    }
+
+    .products-section h2 {
+        font-size: 20px;
+    }
+}
